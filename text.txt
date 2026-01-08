@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Bridgetown Work Order</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111">
+
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background:#eee; }
+    .page { max-width: 900px; margin: 20px auto; background:#fff; padding: 20px; }
+    h1 { text-align: right; margin-bottom: 10px; }
+    label { font-size: 12px; display:block; margin-top:8px; }
+    input, textarea { width:100%; padding:8px; font-size:14px; }
+    table { width:100%; border-collapse:collapse; margin-top:10px; }
+    th, td { border:1px solid #000; padding:6px; }
+    th { background:#f0f0f0; font-size:12px; }
+    button { padding:10px 14px; margin-top:10px; font-weight:bold; }
+  </style>
+</head>
+
+<body>
+<div class="page">
+  <h1>WORK ORDER</h1>
+
+  <label>Customer</label>
+  <input>
+
+  <label>Date</label>
+  <input type="date">
+
+  <label>Vehicle / Unit</label>
+  <input>
+
+  <label>Mechanic</label>
+  <input>
+
+  <h3>Parts</h3>
+
+  <table>
+    <tr>
+      <th>QTY</th>
+      <th>PART NO. & DESCRIPTION</th>
+      <th>CATEGORY</th>
+    </tr>
+    <tr>
+      <td><input></td>
+      <td><input placeholder="Part number / description"></td>
+      <td><input></td>
+    </tr>
+    <tr>
+      <td><input></td>
+      <td><input placeholder="Part number / description"></td>
+      <td><input></td>
+    </tr>
+    <tr>
+      <td><input></td>
+      <td><input placeholder="Part number / description"></td>
+      <td><input></td>
+    </tr>
+  </table>
+
+  <h3>Description of Work</h3>
+  <textarea rows="6"></textarea>
+
+  <h3>Notes</h3>
+  <textarea rows="3"></textarea>
+</div>
+</body>
+</html>
